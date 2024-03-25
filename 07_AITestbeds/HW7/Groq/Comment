@@ -9,12 +9,11 @@ batch_size = 1
   # dummy inputs to generate the groq model
     batch_size = 1
     max_seq_length = 256
-    desired_seq_length = 128
 
     dummy_inputs = {
-                "input_ids": torch.ones(batch_size, max_seq_length, dtype=torch.long),
-                    "attention_mask": torch.ones(batch_size, max_seq_length, dtype=torch.bool),
-                    }
+        "input_ids": torch.ones(batch_size, max_seq_length, dtype=torch.long),
+        "attention_mask": torch.ones(batch_size, max_seq_length, dtype=torch.bool),
+    }
 
     # generate groq model
     groq_model = groqit(pytorch_model, dummy_inputs, rebuild=rebuild_policy)
