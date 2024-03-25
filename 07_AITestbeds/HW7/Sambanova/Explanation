@@ -1,1 +1,1 @@
-# --ntasks chnaged into 32 instead of 16, log file in BertLarge.out
+# --ntasks chnaged into 32 and 8 instead of 16, log file in BertLarge.out
