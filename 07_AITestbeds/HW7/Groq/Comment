@@ -1,1 +1,7 @@
 # Maximun length was changed into 256 instead of 128 in the dummy section. But no significant affect on accuracy was found.
+ batch_size = 2
+    max_seq_length = 256
+    dummy_inputs = {
+        "input_ids": torch.ones(batch_size, max_seq_length, dtype=torch.long),
+        "attention_mask": torch.ones(batch_size, max_seq_length, dtype=torch.bool),
+    }
