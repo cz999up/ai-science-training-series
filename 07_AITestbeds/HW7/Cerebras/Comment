@@ -1,1 +1,2 @@
 # Batch size was changed into 512 and 2048 instead of 128.
+# Observation: The larger the batch size, the longer it takes to run, and the rate, global rate increase as the batch size increase, but no significant difference on Loss values. 
