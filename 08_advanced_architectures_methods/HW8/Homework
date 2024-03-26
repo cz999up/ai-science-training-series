@@ -8,4 +8,4 @@ Answer:
 Answer:
 - Performance, safety and regulation etc. requirements need the LLM evaluation. 
 - Few methods of evaluation could be used to evaluate the LLMs, which are automated evaluation like intrinsic evaluation, extrinsic evaluation and unautomated evaluation human based evaluation.
-- The automated evaluation methods is more ecomonical and time saving in this process as I believe, so methods like HELM evaluation could be used in this case.
+- The automated evaluation methods is more economical and time saving in this process as I believe, so methods like HELM evaluation could be used in this case.
