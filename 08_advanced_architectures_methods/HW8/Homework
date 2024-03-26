@@ -1,1 +1,11 @@
 What do you think is a particularly good use case for LLMs for science? How would you evaluate it? Your answer does not need to be in paragraphs. 
+1. What do you think is a particularly good use case for LLMs for science?
+Answer: 
+- LLMs have advantage in processing larger amount of data at a relativele short amount of time. 
+- I think a particular good use of LLMs for science is to extracting the main points and data from scientific literatures, as the LLM model could analysis large amount data at relatively short amount of time and making it efficient in this process. 
+
+2. How would you evaluate it?
+Answer:
+- Performance, safety and regulation etc. requirements need the LLM evaluation. 
+- Few methods of evaluation could be used to evaluate the LLMs, which are automated evaluation like intrinsic evaluation, extrinsic evaluation and unautomated evaluation human based evaluation.
+- The automated evaluation methods is more ecomonical and time saving in this process as I believe, so methods like HELM evaluation could be used in this case.
